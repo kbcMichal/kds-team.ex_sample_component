@@ -1,0 +1,1 @@
+https://github.com/kbcMichal/kds-team.ex_sample_component.git

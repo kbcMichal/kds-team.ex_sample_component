@@ -1,0 +1,1 @@
+ex_sample_component short description
