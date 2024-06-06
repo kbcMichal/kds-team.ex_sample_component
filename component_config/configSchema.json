@@ -2,18 +2,25 @@
   "type": "object",
   "title": "extractor configuration",
   "required": [
-    "print_hello"
+    "#api_token"
   ],
   "properties": {
-    "print_hello": {
-      "type": "boolean",
-      "title": "Print Hello",
+    "#api_token": {
+      "type": "string",
+      "format": "password",
+      "title": "OpenAI API Token",
       "propertyOrder": 1
     },
-    "debug": {
-      "type": "boolean",
-      "title": "Debug",
+    "base_prompt": {
+      "type": "string",
+      "format": "textarea",
+      "title": "Base Prompt",
       "propertyOrder": 2
+    },
+    "text_column": {
+      "type": "string",
+      "title": "Column Containing text",
+      "propertyOrder": 3
     }
   }
 }
